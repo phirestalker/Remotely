@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/aspnet:7.0-jammy
+FROM mcr.microsoft.com/dotnet/aspnet:7.0.14-jammy-arm64v8
 
 SHELL ["/bin/bash", "-c"]
 
