@@ -11,6 +11,8 @@ on:
 jobs:
   docker-arm:
     runs-on: ARM64
+    env:
+      DOTNET_INSTALL_DIR: "/tmp/dotnet"
     steps:
       - name: Checkout
         uses: actions/checkout@v4
