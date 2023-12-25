@@ -8,7 +8,7 @@ ENV ASPNETCORE_ENVIRONMENT="Production"
 ENV ASPNETCORE_URLS="http://*:5000"
 
 COPY ./DockerMain.sh /src/DockerMain.sh
-COPY . /app
+COPY ./bin/Release/net7.0/linux-arm64/publish/ /app
 
 WORKDIR /app
 
